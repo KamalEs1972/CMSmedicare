@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CMS Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="cms.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="CMS App Test Cases(failed)">
+    <classes>
+      <class name="cms.testCases.VerifyMedicareLinkTest">
+        <methods>
+          <include name="MedicarePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- cms.testCases.VerifyMedicareLinkTest -->
+    </classes>
+  </test> <!-- CMS App Test Cases(failed) -->
+</suite> <!-- Failed suite [CMS Application Test Automation Test Suite] -->
